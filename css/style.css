@@ -1,6 +1,14 @@
 body {
   background-color: silver;
 }
+#introimg {
+}
+
+#intro {
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 200%;
+}
 
 #bottomBar {
   position: fixed;
