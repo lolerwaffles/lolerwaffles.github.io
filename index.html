@@ -1,5 +1,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/2967eb58cc.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -8,15 +9,14 @@
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Demos</a>
-    <a href="https://github.com/lolerwaffles">Github</a>
-    <a href="https://www.linkedin.com/in/walter-williams/">LinkedIn</a>
+    <a href=#about>About</a>
+    <a href=#portfolio>Portfolio</a>
+    <a href=#contact>Contact Me</a>
   </div>
 
 
 <div id="main">
-  <nav class="navbar navbar-inverse" id="navbar">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" onclick="openNav()">Navigate</a>
@@ -24,21 +24,56 @@
     </div>
   </nav>
 
-
 <div class="row">
-  <div class="col-md-5"></div>
-  <div class="col-md-2">
-    <img src="netglobe.png" class="img-responsive mx-auto d-block" id="introimg"><br>
-  </div>
-  <div class="col-md-5"></div>
-  </div>
-
-<div class="row">
-  <div class="col-md-3"></div>
-  <div class="col-md-6 container-responsive" id="intro">
-    My Name is Walter Williams. I am learning how to do web development. This is my portfolio.
+  <div class="col-md-2"></div>
+  <div class="col-md-8" id="about">About</div>
+</div>
+<div class="row" id="intro">
+  <div class="col-md-2"></div>
+  <div class="col-md-8 container-responsive" id="introcell">
+    <div><img src="netglobe.png" class="img-responsive mx-auto d-block" id="introimg">
+    </div>
+    Frontend and UI/UX designer dedicated to bringing clean, functional implementation.
   </div>
   <div class="col-md-2"></div>
+</div>
+
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8 container-responsive"  id="portfolio">
+    Portfolio
+    <div class="row">
+      <div class="col-md-6 container-fluid" id="portfoliocell">
+        <img src="netglobe.png" class="img-responsive mx-auto d-block">
+        Portfolio example #1
+      </div>
+      <div class="col-md-6 container-fluid" id="portfoliocell">
+        <img src="netglobe.png" class="img-responsive mx-auto d-block">
+        Portfolio example #2
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+</div>
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 container-responsive"  id="contact">
+        Contact
+        <div class="row">
+
+          <div class="col-md-4 container-fluid" id="contactcell">
+            <a href="https://www.linkedin.com/in/walter-williams/"><i class="fa fa-linkedin-square fa-5x float" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-md-4 container-fluid" id="contactcell">
+           <a href="https://github.com/lolerwaffles"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-md-4 container-fluid" id="contactcell">
+            <a href="mailto:walter1982.ww@gmail.com"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a>            
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
 </div>
 
 

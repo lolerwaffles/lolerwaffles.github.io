@@ -1,13 +1,48 @@
 body {
   background-color: silver;
 }
+
+#navbar {
+  position: sticky;
+}
+#about {
+  font-size: 250%;
+  background-color: Black;
+  color: silver;
+}
 #introimg {
+  width: 20%;
+  float: right;
 }
 
-#intro {
+#introcell {
   word-wrap: break-word;
-  text-align: center;
+  text-align: marginLeft;
   font-size: 200%;
+  background-color: grey;
+}
+#portfolio {
+  background-color: Black;
+  color: silver;
+  font-size: 250%
+}
+#portfoliocell {
+  word-wrap: break-word;
+  text-align: marginLeft;
+  font-size: 80%;
+  background-color: DarkGrey;
+  border-width: 5;
+  border-style: solid;
+  color: black;
+}
+#contact {
+  background-color: Black;
+  color: silver;
+  font-size: 250%
+}
+#contactcell {
+  background-color: grey;
+
 }
 
 #bottomBar {
@@ -18,6 +53,10 @@ body {
   background-color: #222;
   border-color: #080808;
   border-radius: 2;
+}
+#breakbar {
+  background-color: Black;
+  color: white;
 }
 
 /* The side navigation menu */
