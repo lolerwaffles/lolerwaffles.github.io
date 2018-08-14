@@ -1,5 +1,7 @@
 body {
+  background-image: url('../Code.jpg');
   background-color: silver;
+
 }
 
 #navbar {
@@ -20,6 +22,12 @@ body {
   text-align: marginLeft;
   font-size: 200%;
   background-color: grey;
+}
+
+#introtext {
+  text-align: marginCenter;
+  font-size: 120%;
+
 }
 #portfolio {
   background-color: Black;
